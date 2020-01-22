@@ -1,0 +1,255 @@
+h1
+ {
+font-family: Arial;
+padding: 10px;
+border: 5px;
+}
+
+
+body 
+{
+color:whitesmoke;
+width:1300px;
+padding:15px;
+
+}
+
+table,.def
+{
+border:3px solid rgba(0,30,243,0.69);
+border-radius:5px;
+color:white;
+background-color:rgba(253,1,1,0.67);
+padding: 3px;
+}
+
+.image{
+border:3px solid black;
+
+margin:5px;
+}
+
+
+
+input[type=text],input[type=tel]
+{
+font-family: sans-serif;
+padding:10px;
+border:5px solid green;
+border-radius:10px;
+background-color:rgba(211,211,211,0.63);
+pointer:cursor;
+align-content:center;
+color:blue;
+}
+
+
+input[type=password]
+{
+padding:10px;
+border:5px solid green;
+border-radius:10px;
+background-color:rgba(211,211,211,0.63);
+pointer:cusor;
+color:blue;
+}
+
+input[type=email]
+{
+font-family: sans-serif;
+padding:10px;
+border:5px solid green;
+border-radius:10px;
+background-color:rgba(211,211,211,0.63);
+pointer:cursor;
+color:blue;
+}
+
+
+input[type=date]
+{
+font-family: sans-serif;
+padding:10px;
+border:5px solid green;
+border-radius:10px;
+background-color:rgba(211,211,211,0.63);
+pointer:cursor;
+color:blue;
+}
+
+input[type=search]
+{
+background-color: lightblue;
+padding:10px;
+border:5px;
+}
+
+input[type=submit]
+{
+padding:10px;
+margin:10px;
+border:5px solid green;
+font-size:13px;
+background-color:rgba(211,211,211,0.63);
+border-radius:10px;
+transition-duration:0.4s;
+font-style:italic;
+font-weight:bold;
+color:white;
+}
+
+input[type=submit]:hover
+{
+background-color:lightblue;
+color:blue;
+box-shadow: 0px 8px 16px 0px rgba(0,128,0,0.88);
+}
+
+
+fieldset {
+    font-family: sans-serif;
+    border: 5px solid rgba(0,30,243,0.69);
+    margin:20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background:rgba(0,121,247,0.58);
+    color:white;
+    padding: 5px 10px ;
+    font-size: 16pxpx;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px rgba(26,183,67,0.65);
+    margin: 20px;
+}
+
+.fef,input[list]{
+padding:10px;
+margin:10px;
+border:5px solid green;
+font-size:13px;
+background-color:rgba(211,211,211,0.63);
+
+border-radius:10px;
+transition-duration:0.4s;
+font-style:italic;
+font-weight:bold;
+color:blue;
+    
+}
+
+.fef:hover,input[list]:hover{
+background-color:lightyellow;
+color:blue;
+box-shadow: 0px 8px 16px 0px rgba(0,128,0,0.88);
+}
+
+
+
+
+.name{
+	width:500px;
+	float:left;
+}
+
+.dept{
+	width:500px;
+	float:right;
+}
+
+.leftside{
+	width:500px;
+	float:left;
+	border-right:2px solid rgba(208,208,208,0.44);
+                  padding-left:50px;
+                  padding-right:65px;
+	border-radius:3px;
+}
+
+.rightside{
+	width:500px;
+	float:right;
+                  padding-right:10px;
+}
+
+.ge{
+ 	width:500px;
+	float:right;
+                  padding-right:4px;
+	font-weight:bold;
+	font-style:italics;
+}
+
+.fe{
+ 	width:500px;
+	float:left;
+                  padding-left:50px;
+	font-weight:bold;
+	font-style:Italics;
+}
+
+*/DROPDOWN CSS OPTIONS/
+
+.rt{
+   border:2px solid white;
+   background-color:lightgrey;
+   
+}
+
+li.p1 {
+    float: left;
+    display:inline;
+}
+
+li.p1 a, .dropbtn {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration:0.4s;
+
+    
+}
+
+li.p1 a:hover, .dropdown:hover .dropbtn {
+   background:linear-gradient(to bottom right,rgba(253,1,1,0.67),rgba(4,4,4,0.68));
+   color:white;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    color:white;
+    position: absolute;
+    background:linear-gradient(to bottom right,rgba(4,4,4,0.68),rgba(253,1,1,0.67));
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition-duration:0.4s;
+}
+
+.dropdown-content a {
+    font-family:"Arial";
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-content a:hover {background-color: rgba(4,4,4,0.68)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+
+

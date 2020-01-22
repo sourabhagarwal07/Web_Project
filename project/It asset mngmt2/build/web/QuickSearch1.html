@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Find</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 align="center"><b><i>Welcome To The Employee Finder</i></b></h1><hr>
+    <link href="Itasset.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript">
+     function loadDoc() {
+     var xhttp = new XMLHttpRequest();
+     xhttp.onreadystatechange = function() {
+     if (xhttp.readyState == 4 && xhttp.status == 200) 
+    {
+    xmlDoc=xhttp.responseXML;
+  var i;
+  var table="<tr><th>S.No</th><th>Employee Name</th><th>Employee Id</th><th>Employee Email</th><th>Employee Contact</th><th>Employee Department</th></tr>";
+  var x = xmlDoc.getElementsByTagName("EmployeeName");
+  var y = xmlDoc.getElementsByTagName("EmployeeId");
+  var z = xmlDoc.getElementsByTagName("EmployeeEmail");
+  var d = xmlDoc.getElementsByTagName("EmployeeContact");
+  var e = xmlDoc.getElementsByTagName("EmployeeDepartment");
+  var txt="";
+  for (i = 0; i <x.length; i++) { 
+   
+
+    table += "<tr><td>" +
+     i+"</td><td>"+       
+    x[i].childNodes[0].nodeValue +
+    "</td><td>" +
+    y[i].childNodes[0].nodeValue +
+    "</td><td>"+
+    z[i].childNodes[0].nodeValue +
+    "</td><td>"+
+    d[i].childNodes[0].nodeValue +
+    "</td><td>"+
+    e[i].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+    }
+  };
+  xhttp.open("POST","EmployeeData1.xml", true);
+  xhttp.send();
+}
+
+</script>    
+    </head>
+    <body align="center" background="6899096-abstract-wallpaper.jpg">
+       <button type="button" onclick="loadDoc()" class="fef">Show Employees</button>
+       <a href="QuickSearch1.html"><input type="reset" value="reset" class="fef"/></a>
+       <table id="demo" align="center" border="3"></table>
+        <br>
+        <p><b>Click This To Go Back To Home Page</b></p>
+        <a href="ITassetmngt.html"><input type="button" value="back" class="fef"/></a> 
+    </body>
+</html>

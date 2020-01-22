@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+    <h1 align="center">Company Indoors</h1><hr>
+    <title>Map Layout</title>
+    <link href="Itasset.css" type="text/css" rel="stylesheet"/>
+    <link href="bootstrap-theme.css" type="text/css" rel="stylesheet"/>
+    <link href="bootstrap-theme.min.css" type="text/css" rel="stylesheet"/>
+    <link href="bootstrap.css" type="text/css" rel="stylesheet"/>
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="npm.js"></script>
+    <script type="text/javascript">
+        function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+        document.getElementById("demo").innerHTML = xhttp.responseText;
+        }
+        };
+        xhttp.open("GET", "office1.txt", true);
+        xhttp.send();
+        }
+        function loadDoc2() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+        document.getElementById("demo").innerHTML = xhttp.responseText;
+        }
+        };
+        xhttp.open("POST", "office1_1.txt", true);
+        xhttp.send();
+        }
+    </script>    
+    </head>
+    <body background="6899096-abstract-wallpaper.jpg">
+        <table align="center">
+            <tr><td><img src="floor01.jpg" alt="floor1" usemap="floor1"/></td></tr>
+            <map name="floor1">
+              
+                <area shape="rect" coords="32,118,376,403" alt="Office1" onclick="loadDoc()">
+                <area shape="poly" coords="374,403,376,35,806,36,808,150,643,150,645,402" alt="breakroom" onclick="loadDoc2()">
+            </map>
+            <tr></tr>
+             <tr><td align="center"><div id="demo"><b><i></i></b></div></td></tr>
+        </table>
+        
+    </body>
+</html>

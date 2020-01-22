@@ -1,0 +1,66 @@
+<html>
+	<head>
+            <title>Employee Registration</title>
+		<h1 align="center"><b><i>Employee Register Form</b></i></h1>
+		<hr></hr>
+		<link href="Itasset.css" type="text/css" rel="stylesheet"/>
+                <script type="text/javascript">
+                    function validate()
+                    {
+                    var password=document.Employee.Employee-password.value;
+                    var repassword=document.Employee.Employee-repassword.value;
+                    if(password!=repassword)
+                    {
+                    alert("password Not Match");  
+                    return false;
+                    }    
+                    }
+                </script>
+	</head>
+	<body background="6899096-abstract-wallpaper.jpg">
+		<form  name="Employee" onsubmit="validate()" action="Employee" method="Post">
+		<br>
+		<fieldset>
+		<legend><b><i>Employee Details<b><i></legend>
+		<div class="abc" align="left">
+			<div class="leftside">
+			<p class="name" ><b><i style="padding-right:120px">Name:</b></i>  <input type="text" name="Employee-Name" required="required"/>
+			<p class="name" > <i style="padding-right:148px">Id: </i> <input type="text" name="Employee-Id" required="required"/></p>
+			<p class="name" ><i style="padding-right:123px">Email:</i><input type="email" name="Employee-Email" required="required"/></p>
+                        <p class="name" ><i style="padding-right:80px">Superior ID:</i><input type="text" name="Employee-superior-ID" required="required"/></p>
+			<p class="name" ><i style="padding-right:40px">Contact Number:</i><input type="tel" name="Employee-contact" required="required"/></p>
+			</div>
+			<div class =" rightside"> 
+			<p class="dept"><b><i style="padding-right:90px">Organisation:</b></i><input type="text" name="Employee-organisation" required="required"/></p>
+			<p class="dept"><b><i style="padding-right:120px">Building: </b></i><input type="text" name="Employee-building" required="required"/></p>
+			<p class="dept"><b><i style="padding-right:95px">Department:</b></i>  <input type="text" name="Employee-department" required="required"/></p>
+			<p class="dept"><b><i style="padding-right:120px">Superior:</b></i><input type="text" name="Employee-superior" required="required"/></p>
+                        <p class="dept"><b><i style="padding-right:120px">Remarks</b></i>  <input type="text" name="Employee-Remarks" required="required"/></p>
+			</div>
+		</div>
+
+
+
+		<br>
+		
+		</fieldset>
+		<p><b><i> * represents the Compulsory Field..</b></i></p>
+		<br>
+		<fieldset>
+			<legend><b><i>Login Details</b><i></legend>
+			<div class="fe">
+			       	<p><b><i style="padding-right:50px">Username</b></i><input type="text" name="Employee-username" required="required" class="fef"/></p>
+				<p><b><i style="padding-right:55px">Password</b></i><input type="password" name="Employee-password" required="required" class="fef"/></p>
+			</div>
+			<div class="ge">	
+		                                     <p><b><i style="padding-right:50px">Retype Password</b></i><input type="password" name="Employee-repassword" required="required" class="fef"/></p>
+						
+
+				
+				<p><b><i style="padding-right:120px">Position</b></i><input type="text" name="Employee-position" required="required" class="fef"></p>
+			</div>
+			</fieldset>
+		<p align="center"><b><i><input type="submit"/></b></i></p>
+		</form>
+	</body>
+</html>

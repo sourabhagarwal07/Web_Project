@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<Employees>
+    <Employee>
+        <EmployeeName>Sourabh Agarwal</EmployeeName>    
+        <EmployeeId>JUSC-1A56</EmployeeId>
+        <EmployeeEmail>Sourabh.max01@gmail.com</EmployeeEmail>
+        <EmployeeContact>9962647932</EmployeeContact>
+        <EmployeeDepartment>Research And Department</EmployeeDepartment>
+    </Employee>
+    <Employee>
+        <EmployeeName>Radhika Agarwal</EmployeeName>    
+        <EmployeeId>JUSC-1B57</EmployeeId>
+        <EmployeeEmail>Radhika.Agarwal@gmail.com</EmployeeEmail>
+        <EmployeeContact>9962647833</EmployeeContact> 
+        <EmployeeDepartment>IT</EmployeeDepartment>
+    </Employee>
+    <Employee>
+        <EmployeeName>Mahesh Agarwal</EmployeeName>    
+        <EmployeeId>JUSC-1C58</EmployeeId>
+        <EmployeeEmail>Mahesh.Agarwal@gmail.com</EmployeeEmail>
+        <EmployeeContact>9962856833</EmployeeContact>
+        <EmployeeDepartment>HR</EmployeeDepartment>
+    </Employee>
+    <Employee>
+        <EmployeeName>Mahendar Singh</EmployeeName>    
+        <EmployeeId>JUSC-1D59</EmployeeId>
+        <EmployeeEmail>Mahendar.Singh@gmail.com</EmployeeEmail>
+        <EmployeeContact>9962631833</EmployeeContact> 
+        <EmployeeDepartment>Maintenence</EmployeeDepartment>
+    </Employee>
+    <Employee>
+        <EmployeeName>Sardar Singh</EmployeeName> 
+        <EmployeeId>JUSC-1E60</EmployeeId>
+        <EmployeeEmail>Sardar.Singh@gmail.com</EmployeeEmail>
+        <EmployeeContact>9962642533</EmployeeContact> 
+        <EmployeeDepartment>Maintenence</EmployeeDepartment>
+    </Employee>
+    <Employee>
+        <EmployeeName>Chatur Purohit</EmployeeName> 
+        <EmployeeId>JUSC-1F61</EmployeeId>
+        <EmployeeEmail>Chatur.Singh@gmail.com</EmployeeEmail>
+        <EmployeeContact>9945642533</EmployeeContact> 
+        <EmployeeDepartment>Operatives</EmployeeDepartment>
+    </Employee>
+    <Employee>
+        <EmployeeName>Mr.Shyam Singh</EmployeeName> 
+        <EmployeeId>JUSC-ADM00145</EmployeeId>
+        <EmployeeEmail>Shyam.Singh@Jusco.com</EmployeeEmail>
+        <EmployeeContact>9937442533</EmployeeContact> 
+        <EmployeeDepartment>Senior Employee</EmployeeDepartment>
+    </Employee>
+</Employees>
+
+

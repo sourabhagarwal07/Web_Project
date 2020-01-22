@@ -1,0 +1,54 @@
+ <html>
+	<head>
+            <title>Administration Registration</title>
+		<h1 align="center"><b><i>Administrator Register Form</b></i></h1>
+		<hr></hr>
+		<link href="Itasset.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body background="6899096-abstract-wallpaper.jpg">
+		<form action="Administrator" method="POST">
+		<br>
+		<fieldset>
+		<legend><b><i>Administrator Details<b><i></legend>
+		<div class="abc" align="left">
+			<div class="leftside">
+			<p class="name" ><b><i style="padding-right:120px">Name:</b></i>  <input type="text" name="Administrator-Name" required="required"/>
+			<p class="name" > <i style="padding-right:148px">Id: </i> <input type="text" name="Administrator-Id" required="required"/></p>
+			<p class="name" ><i style="padding-right:123px">Email:</i><input type="email" name="Administrator-Email" required="required"/></p>
+                        <p class="name" ><i style="padding-right:80px">Superior ID:</i><input type="text" name="Administrator-superior-ID" required="required"/></p>
+			<p class="name" ><i style="padding-right:40px">Contact Number:</i><input type="tel" name="Administrator-contact" required="required"/></p>
+			</div>
+			<div class =" rightside"> 
+			<p class="dept"><b><i style="padding-right:90px">Organisation:</b></i><input type="text" name="Administrator-organisation" required="required"/></p>
+			<p class="dept"><b><i style="padding-right:120px">Building: </b></i><input type="text" name="Administrator-building" required="required"/></p>
+			<p class="dept"><b><i style="padding-right:95px">Department:</b></i>  <input type="text" name="Administrator-department" required="required"/></p>
+			<p class="dept"><b><i style="padding-right:120px">Superior:</b></i><input type="text" name="Administrator-superior" required="required"/></p>
+                        <p class="dept"><b><i style="padding-right:120px">Remarks</b></i>  <input type="text" name="Administrator-Remarks" required="required"/></p>
+			</div>
+		</div>
+
+
+
+		<br>
+		
+		</fieldset>
+		<p><b><i> * represents the Compulsory Field..</b></i></p>
+		<br>
+		<fieldset>
+			<legend><b><i>Login Details</b><i></legend>
+			<div class="fe">
+			       	<p><b><i style="padding-right:50px">Username</b></i><input type="text" name="Admin-username" required="required" class="fef"/></p>
+				<p><b><i style="padding-right:55px">Password</b></i><input type="password" name="Admin-password" required="required" class="fef"/></p>
+			</div>
+			<div class="ge">	
+		                                     <p><b><i style="padding-right:50px">Retype Password</b></i><input type="password" name="Admin-repassword" required="required" class="fef"/></p>
+						
+
+				
+				<p><b><i style="padding-right:120px">Position</b></i><input type="text" name="Admin-position" required="required" class="fef"></p>
+			</div>
+			</fieldset>
+		<p align="center"><b><i><input type="submit" name="Admin-register-submit"/></b></i></p>
+		</form>
+	</body>
+</html>

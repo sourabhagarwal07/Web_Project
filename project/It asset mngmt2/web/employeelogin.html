@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Employee Login</title>
+<h1 align="center"><b><i>Employee Portal</b></i></h1><hr></hr>
+
+<link href="Itasset.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript">
+    function check()
+    {
+        var x=document.employee.Employee-Id.value;
+        var y=document.employee.Employee-department.value;
+        var z=document.employee.Employee-department.value;
+        if(x==""||x==null)
+        {
+         alert("Please Enter A Name");
+         return false;
+        }
+        if(y==""||y==null)
+        {
+         alert("Please Enter A Name");
+         return false;
+        }
+        if(z==""||z==null)
+        {
+         alert("Please Enter A Name");
+         return false;
+        }
+    }
+</script>
+</head>
+<body background="6899096-abstract-wallpaper.jpg">
+    <form  action="employeep.jsp" method="POST" name="employee" onsubmit="check()" >
+<br>
+<br>
+<br>
+<fieldset>
+<legend><b><i>Employee Details</b></i></legend>
+<p align="center"><b><i style="padding-right:60px;">Employee ID</b></i><input type="text" name="Employee-Id"/></p>
+<br>
+<p align="center"><b><i style="padding-right:60px;">Department</b></i><input type="text" name="Employee-department"/></p>
+<br>
+<p align="center"><b><i style="padding-right:60px;">Password</b></i><input type="password" name="Employee-password"/></p>
+</fieldset>
+<br>
+<p align="center"><input type="submit"/></p>
+
+</form>
+</body>
+</html> 

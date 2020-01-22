@@ -1,0 +1,3 @@
+Office1: Admnistrator Office<br>
+         This Is The Administrator Office Present In Left Most Corner Of the office.<br>
+         He Manages The Employee Working For the Firm And Producing The Software.
